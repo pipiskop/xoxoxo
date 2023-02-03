@@ -1,0 +1,14 @@
+﻿<Window x:Class="xoxo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xoxo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="SeaGreen">
+        <TextBlock  Margin="292,118,291.6,266" FontSize="20" Foreground="#FF1B4232" >KreстиKi энд NoлиКи</TextBlock>
+        <Button Click="Button_Click" Height="27" Width="150" Margin="323,181,320.6,212" Background="#FFD7C468">1 игрок</Button>
+        <Button Click="Button_Click_1" Height="27" Width="150" Margin="323,229,320.6,164" Background="#FFD7C468">2 игрока</Button>
+    </Grid>
+</Window>
